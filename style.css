@@ -8,10 +8,9 @@ body {
 
 .block {
     position: relative;
-    width: 100px;
-    height: 100px;
-    background: red;
-    animation: move 20s linear infinite alternate;
+    width: 0;
+    height: 0;
+    animation: move 20s linear infinite 1s alternate;
 
 }
 @keyframes move {
